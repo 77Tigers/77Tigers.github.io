@@ -54,4 +54,8 @@ body {
     padding: 10px;
     user-select: none;
 }
+
+.li:hover {
+    background-color: #222;
+}
 /* End */
