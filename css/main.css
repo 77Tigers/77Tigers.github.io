@@ -49,17 +49,10 @@ body {
 
 .li {
     float: left;
-}
-
-.li a {
     display: block;
     color: #FFF;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-}
-
-.li a:hover {
-    background-color: #000;
+    user-select: none;
 }
 /* End */
