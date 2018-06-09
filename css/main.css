@@ -6,8 +6,11 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
+    /*
     background-size: cover;
     background-image: url(/trianglify.png);
+    */
+    background-color: #DDDDDD;
     overflow: hidden;
 }
 
