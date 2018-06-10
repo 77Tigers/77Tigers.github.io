@@ -14,6 +14,14 @@ body {
     overflow: hidden;
 }
 
+#body {
+    max-width: 100%;
+}
+
+#content {
+    max-width: 100%;
+}
+
 #header {
     position: fixed;
     padding: 0px;
