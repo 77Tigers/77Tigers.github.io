@@ -27,6 +27,14 @@ body {
     padding: 20px;
     position: fixed;
     height: 100%;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.7), 
+            rgba(0, 0, 0, 0.7)
+        ),
+        url("../trianglify.png");
+
 }
 
 .sidebar h1 {
@@ -38,10 +46,11 @@ body {
     margin-bottom: 0px;
     justify-content: center;
     display: flex;
+    color: #bbb;
 }
 
 .sidebar a {
-    color: #555;
+    color: #bbb;
     text-decoration: none;
     display: block;
     margin: 0px 0;
