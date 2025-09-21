@@ -1,22 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link rel="icon" href="/favicon.png">
-        <title> 77Tigers </title>
-    </head>
-    <body>
-        <div id="header">
-            <ul class="ul">
-                <li class="li">
-                    <img src="headerLogo.png" width="40" height="40">
-                </li>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben Vorster</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- ShaderToyLite script -->
+    <script src="https://cdn.jsdelivr.net/gh/neilmendoza/ShaderToyLite/shadertoylite.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Ruben Vorster</h1>
+        <div class="me">
+            <img src="rubenn.jpg">
+        </div>
+        <p>+44 7899852659</p>
+        <p><a href="mailto:rubenvorster@outlook.com">rubenvorster@outlook.com</a></p>
+        <nav>
+            <a href="#introduction">Introduction</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#links">Links</a>
+            <a href="#cool-stuff">Cool Stuff</a>
+        </nav>
+    </div>
+
+    <div class="content">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Hello! I'm Ruben, a third-year student in Mathematics and Computer Science at Imperial College London.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming languages/frameworks: Python, Rust, Scala, Java, C, JavaScript, Kotlin, Lean, Haskell, NumPy, Matplotlib, React </li>
+                <li>Topics covered at uni: Machine Learning, Statistics, Analysis, Multivariable Calculus, Operating Systems, Abstract Algebra, Compilers, Advanced Computer Architecture, Probability, Options Pricing, Computer proof</li>
             </ul>
-        </div>
-        <div id="body" class="scroll">
-            <div id="content">
-            </div>
-            <canvas width="200" height="200" class="canvas"></canvas>
-        </div>
-    </body>
+        </section>
+
+        <section id="experience">
+            <h2>Experience (TBC)</h2>
+        </section>
+
+        <section id="links">
+            <h2>Links</h2>
+            <p>Links to personal websites or projectss.</p>
+            <p><a href="https://github.com/77Tigers" target="_blank">GitHub</a> Missing one of my latest projects. Will add soon. </p>
+            <p><a href="https://www.linkedin.com/in/ruben-vorster/" target="_blank">LinkedIn</a></p>
+            <p><a href="https://www.shadertoy.com/user/77Tigers" target="_blank">ShaderToy</a></p>
+            <iframe 
+                width="700" 
+                height="360" 
+                frameborder="0" 
+                src="https://www.shadertoy.com/embed/lctyWX?gui=false&paused=false&muted=false" 
+                allowfullscreen>
+            </iframe>
+            <!-- <canvas id="shaderCanvas"></canvas> -->
+            <p><a href="https://gruben.substack.com/" target="_blank">Blog</a> (I don't post regularly but I try to keep my posts interesting)</p>
+            <p><a href="https://scratch.mit.edu/users/77Tigers/">Scratch :P</a>. From when I was younger. There are some rather fun games!</p>
+        </section>
+
+        <section id="cool-stuff">
+            <h2>Cool Stuff</h2>
+            <p>I am just posting things I found cool here.</p>
+            <ul>
+                <li><p><a href="https://distill.pub/2017/feature-visualization/">How feature visualisation works in CNNs</a></p></li>
+                <li><p><a href="https://math.andrej.com/2007/09/28/seemingly-impossible-functional-programs/">Things that seem like they should be uncomputable but aren't</a></p></li>
+                <li><p><a href="https://manishearth.github.io/blog/2015/05/27/wrapper-types-in-rust-choosing-your-guarantees/">Wrapper types in Rust</a></p></li>
+                <li><p><a href="https://transformer-circuits.pub/2022/toy_model/index.html#motivation">Superpostion in Neural networks</a></p></li>
+                <li><p><a href="https://mathstodon.xyz/@MartinEscardo/112379481413093753">Counterintuitive Results in Constructive Mathematics</a></p></li>
+                <li><p><a href="https://www.youtube.com/watch?v=mEm0hRxHU_c">Cursorless: programming with just your voice</a> (it works surprisingly well)</p></li>
+                <li><p><a href="https://mirrorball.frost.kiwi/">Magic Mirrorball</a>: a picture of a reflective ball is enough information for you to have a 360 degree view of the world from the perspective of said ball.</p></li>
+                <li><p><a href="https://www.cs.cornell.edu/courses/cs5430/2016sp/l/25-vsi/lec.pdf">An information-flow type system</a></p></li>
+                <li><p><a href="https://simulator.spintronics.com/">Spintronics</a>: a way to understand electricity intuitively.</p></li>
+                <li><p><a href="https://adam.math.hhu.de/">The Natural Number Game (Lean)</a></p></li>
+                <li>Define a function f : Set N → N such that adding or removing a single number from the input always changes the output. It sounds easy but it is definitely not.</li>
+                <li><p><a href="https://openai.com/index/deep-double-descent/">Deep Double Descent</a></p></li>
+            </ul>
+        </section>
+    </div>
+</body>
 </html>
